@@ -1,0 +1,11 @@
+type Courses {
+  _id: ID
+  title: String
+  teacher: String
+  description: String
+  topic: String
+}
+
+type Query {
+  getCourses: [Courses]
+}

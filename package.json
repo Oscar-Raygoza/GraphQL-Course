@@ -1,0 +1,32 @@
+{
+  "name": "GraphQL-Course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.0.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "lint": "standard",
+    "lint-fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oscar-Raygoza/GraphQL-Course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oscar-Raygoza/GraphQL-Course/issues"
+  },
+  "homepage": "https://github.com/Oscar-Raygoza/GraphQL-Course#readme"
+}
